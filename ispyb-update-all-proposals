@@ -1,6 +1,7 @@
 import nsls2api_lib
 import ispyb_lib
-
+import argparse
+import logging
 
 def main(args=[]):
     parser = argparse.ArgumentParser(
